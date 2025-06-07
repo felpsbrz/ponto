@@ -62,7 +62,7 @@ namespace Ponto
                             senha senha = new senha();
                             senha.Show();
                             senha.form = this;
-                            
+
                             senha.codigo = textBox1.Text;
                             this.Hide();
                         }
@@ -103,6 +103,12 @@ namespace Ponto
         private void fecharToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void painelAdminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PainelAdm padm = new PainelAdm();
+            padm.Show();
         }
     }
 }

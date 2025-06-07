@@ -152,6 +152,7 @@
             painelAdminToolStripMenuItem.Name = "painelAdminToolStripMenuItem";
             painelAdminToolStripMenuItem.Size = new Size(180, 22);
             painelAdminToolStripMenuItem.Text = "Painel Admin";
+            painelAdminToolStripMenuItem.Click += painelAdminToolStripMenuItem_Click;
             // 
             // fecharToolStripMenuItem1
             // 
